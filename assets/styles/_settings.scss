@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'font1';
+    src: url(../fonts/RINGM___.TTF);
+}
+
+$font1: 'font1', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background: url(../images/site-bg.jpg) fixed center/cover;
+    font-family: $font1 ;
+    -webkit-text-stroke: 0.1px rgb(202, 202, 202);    
+    color: goldenrod;
+    text-align: center;
+}

@@ -1,3 +1,66 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/RINGM___.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background: url(../images/site-bg.jpg) fixed center/cover;
+  font-family: "font1", sans-serif;
+  -webkit-text-stroke: 0.1px rgb(202, 202, 202);
+  color: goldenrod;
+  text-align: center;
+}
+
+body h1 {
+  font-size: 5rem;
+  padding-top: 20px;
+}
+
+.principal-container {
+  margin: 100px auto;
+  width: 80%;
+  height: 60vh;
+  border-radius: 30px;
+  background: url(../images/gandalf.jpg);
+  background-size: 100% 77%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border: 5px solid rgb(194, 194, 194);
+}
+
+.title-container {
+  background: rgba(11, 20, 59, 0.629);
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 30px 30px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-text-stroke: 0.1px rgba(175, 141, 29, 0.701);
+  font-size: 2rem;
+}
+.title-container select {
+  cursor: pointer;
+  padding: 10px 50px;
+  border-radius: 15px;
+  font-family: "font1", sans-serif;
+  font-size: 2rem;
+  color: orange;
 }/*# sourceMappingURL=index.css.map */
